@@ -17,6 +17,7 @@
 		9F1BFE8322BE9D0D00ACEFB3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */; };
 		9F1BFE8522BEE69600ACEFB3 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */; };
 		9F1BFE8722BEF9D100ACEFB3 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */; };
+		9F1BFE8B22BF5D5100ACEFB3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8A22BF5D5100ACEFB3 /* DetailViewController.swift */; };
 		C9C7D0AE24328B09E2208D5B /* Pods_CatGiffyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D0FE79B28A775DD9A1FFA0 /* Pods_CatGiffyTests.framework */; };
 		E303155C0995DE59722014F2 /* Pods_CatGiffy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2467F249A7D8D460117A6 /* Pods_CatGiffy.framework */; };
 		F41B59FE7554AB2234E5D80C /* Pods_CatGiffyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185E5228B048D06A1107E05 /* Pods_CatGiffyUITests.framework */; };
@@ -60,6 +61,7 @@
 		9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
 		9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		9F1BFE8A22BF5D5100ACEFB3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B461869CC9702ACC1630CDE2 /* Pods-CatGiffyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyTests/Pods-CatGiffyTests.release.xcconfig"; sourceTree = "<group>"; };
 		B96EEBFFF23B8C323938D4F1 /* Pods-CatGiffyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyUITests/Pods-CatGiffyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E048BE395012C83EA788EC2F /* Pods-CatGiffyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyTests/Pods-CatGiffyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				9F1BFE6022BE540500ACEFB3 /* Info.plist */,
 				9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */,
 				9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */,
+				9F1BFE8A22BF5D5100ACEFB3 /* DetailViewController.swift */,
 			);
 			path = CatGiffy;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				9F1BFE8322BE9D0D00ACEFB3 /* Image.swift in Sources */,
 				9F1BFE5422BE540100ACEFB3 /* ViewController.swift in Sources */,
 				9F1BFE8722BEF9D100ACEFB3 /* ImageTableViewCell.swift in Sources */,
+				9F1BFE8B22BF5D5100ACEFB3 /* DetailViewController.swift in Sources */,
 				9F1BFE5222BE540100ACEFB3 /* AppDelegate.swift in Sources */,
 				9F1BFE8522BEE69600ACEFB3 /* NetworkUtils.swift in Sources */,
 			);

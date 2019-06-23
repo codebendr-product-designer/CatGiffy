@@ -16,15 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        NetworkUtils.get(from: NetworkUtils.textUrl) { data in
-            guard let data = data else {
-                print("error data")
-                return
-            }
-            let str = String(decoding: data, as: UTF8.self)
-            print(str)
-            
-        }
+    
         
         NetworkUtils.get(from: NetworkUtils.imagesUrl) { data in
             guard let data = data else {
@@ -50,14 +42,13 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-//        let destination = segue.destination
-//
-//        if let contactDetailViewController = destination as? ContactDetailCollectionView {
-//            contactDetailViewController.employee = sender as? Employee
-//        }
+        let destination = segue.destination
+
+        if let detailViewController = destination as? DetailViewController {
+            detailViewController.gif = sender as? Image
+        }
     }
-    
-    
+  
 }
 
 // MARK: - UITableViewDelegate
