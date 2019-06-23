@@ -18,6 +18,7 @@
 		9F1BFE8522BEE69600ACEFB3 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */; };
 		9F1BFE8722BEF9D100ACEFB3 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */; };
 		9F1BFE8B22BF5D5100ACEFB3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8A22BF5D5100ACEFB3 /* DetailViewController.swift */; };
+		9F1BFE9022BF688B00ACEFB3 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8F22BF688B00ACEFB3 /* UI.swift */; };
 		C9C7D0AE24328B09E2208D5B /* Pods_CatGiffyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D0FE79B28A775DD9A1FFA0 /* Pods_CatGiffyTests.framework */; };
 		E303155C0995DE59722014F2 /* Pods_CatGiffy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2467F249A7D8D460117A6 /* Pods_CatGiffy.framework */; };
 		F41B59FE7554AB2234E5D80C /* Pods_CatGiffyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185E5228B048D06A1107E05 /* Pods_CatGiffyUITests.framework */; };
@@ -47,7 +48,7 @@
 		87D0FE79B28A775DD9A1FFA0 /* Pods_CatGiffyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatGiffyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BFE4E22BE540100ACEFB3 /* CatGiffy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGiffy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BFE5122BE540100ACEFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F1BFE5322BE540100ACEFB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F1BFE5322BE540100ACEFB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		9F1BFE5622BE540100ACEFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F1BFE5B22BE540500ACEFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1BFE5E22BE540500ACEFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,10 +59,11 @@
 		9F1BFE7022BE540500ACEFB3 /* CatGiffyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatGiffyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BFE7422BE540500ACEFB3 /* CatGiffyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGiffyUITests.swift; sourceTree = "<group>"; };
 		9F1BFE7622BE540500ACEFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
-		9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
-		9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Image.swift; path = ../Image.swift; sourceTree = "<group>"; };
+		9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkUtils.swift; path = ../NetworkUtils.swift; sourceTree = "<group>"; };
+		9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageTableViewCell.swift; path = ../ImageTableViewCell.swift; sourceTree = "<group>"; };
 		9F1BFE8A22BF5D5100ACEFB3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9F1BFE8F22BF688B00ACEFB3 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 		B461869CC9702ACC1630CDE2 /* Pods-CatGiffyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyTests/Pods-CatGiffyTests.release.xcconfig"; sourceTree = "<group>"; };
 		B96EEBFFF23B8C323938D4F1 /* Pods-CatGiffyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyUITests/Pods-CatGiffyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E048BE395012C83EA788EC2F /* Pods-CatGiffyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyTests/Pods-CatGiffyTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,18 +134,14 @@
 		9F1BFE5022BE540100ACEFB3 /* CatGiffy */ = {
 			isa = PBXGroup;
 			children = (
+				9F1BFE8E22BF687800ACEFB3 /* New Group */,
 				9F1BFE8D22BF663E00ACEFB3 /* models */,
 				9F1BFE8C22BF663000ACEFB3 /* ui */,
 				9F1BFE5122BE540100ACEFB3 /* AppDelegate.swift */,
-				9F1BFE5322BE540100ACEFB3 /* ViewController.swift */,
 				9F1BFE5522BE540100ACEFB3 /* Main.storyboard */,
-				9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */,
 				9F1BFE5B22BE540500ACEFB3 /* Assets.xcassets */,
 				9F1BFE5D22BE540500ACEFB3 /* LaunchScreen.storyboard */,
 				9F1BFE6022BE540500ACEFB3 /* Info.plist */,
-				9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */,
-				9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */,
-				9F1BFE8A22BF5D5100ACEFB3 /* DetailViewController.swift */,
 			);
 			path = CatGiffy;
 			sourceTree = "<group>";
@@ -169,6 +167,9 @@
 		9F1BFE8C22BF663000ACEFB3 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				9F1BFE8A22BF5D5100ACEFB3 /* DetailViewController.swift */,
+				9F1BFE5322BE540100ACEFB3 /* ViewController.swift */,
+				9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -176,8 +177,18 @@
 		9F1BFE8D22BF663E00ACEFB3 /* models */ = {
 			isa = PBXGroup;
 			children = (
+				9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		9F1BFE8E22BF687800ACEFB3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */,
+				9F1BFE8F22BF688B00ACEFB3 /* UI.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		A0AED0E756BAA141130FE395 /* Pods */ = {
@@ -404,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F1BFE8322BE9D0D00ACEFB3 /* Image.swift in Sources */,
+				9F1BFE9022BF688B00ACEFB3 /* UI.swift in Sources */,
 				9F1BFE5422BE540100ACEFB3 /* ViewController.swift in Sources */,
 				9F1BFE8722BEF9D100ACEFB3 /* ImageTableViewCell.swift in Sources */,
 				9F1BFE8B22BF5D5100ACEFB3 /* DetailViewController.swift in Sources */,

@@ -12,10 +12,30 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     var images = [Image]()
+        var refreshControl:UIRefreshControl!
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        refreshControl = UIRefreshControl()
+        refreshControl.transform = CGAffineTransform(scaleX: 1.5, y: 1.5);
+        refreshControl.addTarget(self, action: #selector(fetchImagesFromUrl), for: .valueChanged)
+        tableView.refreshControl = refreshControl
+        refreshControl.beginRefreshing()
 
+        fetchImagesFromUrl()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let destination = segue.destination
+
+        if let detailViewController = destination as? DetailViewController {
+            detailViewController.gif = sender as? Image
+        }
+    }
+    
+    @objc fileprivate func fetchImagesFromUrl() {
         NetworkUtils.get(from: NetworkUtils.imagesUrl) { data in
             guard let data = data else {
                 print("error data")
@@ -25,9 +45,7 @@ class ViewController: UIViewController {
                 let decoder = JSONDecoder()
                 self.images = try decoder.decode([Image].self, from: data)
                 DispatchQueue.main.async {
-                    // self.activityIndicator.stopAnimating()
-                    // self.errorView.isHidden = true
-                   // self.refreshControl.endRefreshing()
+                    self.refreshControl.endRefreshing()
                     self.tableView.reloadData()
                 }
                 
@@ -35,15 +53,6 @@ class ViewController: UIViewController {
                 print("error json \(error)")
             }
             
-        }
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        let destination = segue.destination
-
-        if let detailViewController = destination as? DetailViewController {
-            detailViewController.gif = sender as? Image
         }
     }
   
