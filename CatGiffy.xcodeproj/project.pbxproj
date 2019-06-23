@@ -10,11 +10,16 @@
 		9F1BFE5222BE540100ACEFB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE5122BE540100ACEFB3 /* AppDelegate.swift */; };
 		9F1BFE5422BE540100ACEFB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE5322BE540100ACEFB3 /* ViewController.swift */; };
 		9F1BFE5722BE540100ACEFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1BFE5522BE540100ACEFB3 /* Main.storyboard */; };
-		9F1BFE5A22BE540100ACEFB3 /* CatGiffy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE5822BE540100ACEFB3 /* CatGiffy.xcdatamodeld */; };
 		9F1BFE5C22BE540500ACEFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1BFE5B22BE540500ACEFB3 /* Assets.xcassets */; };
 		9F1BFE5F22BE540500ACEFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F1BFE5D22BE540500ACEFB3 /* LaunchScreen.storyboard */; };
 		9F1BFE6A22BE540500ACEFB3 /* CatGiffyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE6922BE540500ACEFB3 /* CatGiffyTests.swift */; };
 		9F1BFE7522BE540500ACEFB3 /* CatGiffyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE7422BE540500ACEFB3 /* CatGiffyUITests.swift */; };
+		9F1BFE8322BE9D0D00ACEFB3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */; };
+		9F1BFE8522BEE69600ACEFB3 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */; };
+		9F1BFE8722BEF9D100ACEFB3 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */; };
+		C9C7D0AE24328B09E2208D5B /* Pods_CatGiffyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D0FE79B28A775DD9A1FFA0 /* Pods_CatGiffyTests.framework */; };
+		E303155C0995DE59722014F2 /* Pods_CatGiffy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD2467F249A7D8D460117A6 /* Pods_CatGiffy.framework */; };
+		F41B59FE7554AB2234E5D80C /* Pods_CatGiffyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6185E5228B048D06A1107E05 /* Pods_CatGiffyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CF4143AF5B736A4A8A38270 /* Pods-CatGiffy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffy/Pods-CatGiffy.release.xcconfig"; sourceTree = "<group>"; };
+		6185E5228B048D06A1107E05 /* Pods_CatGiffyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatGiffyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		793573A6B0D89ED4EC99C2A0 /* Pods-CatGiffyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyUITests/Pods-CatGiffyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		87D0FE79B28A775DD9A1FFA0 /* Pods_CatGiffyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatGiffyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BFE4E22BE540100ACEFB3 /* CatGiffy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGiffy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BFE5122BE540100ACEFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F1BFE5322BE540100ACEFB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F1BFE5622BE540100ACEFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F1BFE5922BE540100ACEFB3 /* CatGiffy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatGiffy.xcdatamodel; sourceTree = "<group>"; };
 		9F1BFE5B22BE540500ACEFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F1BFE5E22BE540500ACEFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F1BFE6022BE540500ACEFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +57,14 @@
 		9F1BFE7022BE540500ACEFB3 /* CatGiffyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatGiffyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BFE7422BE540500ACEFB3 /* CatGiffyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGiffyUITests.swift; sourceTree = "<group>"; };
 		9F1BFE7622BE540500ACEFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		B461869CC9702ACC1630CDE2 /* Pods-CatGiffyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyTests/Pods-CatGiffyTests.release.xcconfig"; sourceTree = "<group>"; };
+		B96EEBFFF23B8C323938D4F1 /* Pods-CatGiffyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyUITests/Pods-CatGiffyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E048BE395012C83EA788EC2F /* Pods-CatGiffyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffyTests/Pods-CatGiffyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD2467F249A7D8D460117A6 /* Pods_CatGiffy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatGiffy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF05059379F5C7FA16FFA0A7 /* Pods-CatGiffy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatGiffy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatGiffy/Pods-CatGiffy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E303155C0995DE59722014F2 /* Pods_CatGiffy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C7D0AE24328B09E2208D5B /* Pods_CatGiffyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41B59FE7554AB2234E5D80C /* Pods_CatGiffyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61CA798D39F9810B510DF9D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDD2467F249A7D8D460117A6 /* Pods_CatGiffy.framework */,
+				87D0FE79B28A775DD9A1FFA0 /* Pods_CatGiffyTests.framework */,
+				6185E5228B048D06A1107E05 /* Pods_CatGiffyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9F1BFE4522BE540100ACEFB3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				9F1BFE6822BE540500ACEFB3 /* CatGiffyTests */,
 				9F1BFE7322BE540500ACEFB3 /* CatGiffyUITests */,
 				9F1BFE4F22BE540100ACEFB3 /* Products */,
+				A0AED0E756BAA141130FE395 /* Pods */,
+				61CA798D39F9810B510DF9D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +133,12 @@
 				9F1BFE5122BE540100ACEFB3 /* AppDelegate.swift */,
 				9F1BFE5322BE540100ACEFB3 /* ViewController.swift */,
 				9F1BFE5522BE540100ACEFB3 /* Main.storyboard */,
+				9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */,
 				9F1BFE5B22BE540500ACEFB3 /* Assets.xcassets */,
 				9F1BFE5D22BE540500ACEFB3 /* LaunchScreen.storyboard */,
 				9F1BFE6022BE540500ACEFB3 /* Info.plist */,
-				9F1BFE5822BE540100ACEFB3 /* CatGiffy.xcdatamodeld */,
+				9F1BFE8222BE9D0D00ACEFB3 /* Image.swift */,
+				9F1BFE8622BEF9D100ACEFB3 /* ImageTableViewCell.swift */,
 			);
 			path = CatGiffy;
 			sourceTree = "<group>";
@@ -128,6 +161,19 @@
 			path = CatGiffyUITests;
 			sourceTree = "<group>";
 		};
+		A0AED0E756BAA141130FE395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF05059379F5C7FA16FFA0A7 /* Pods-CatGiffy.debug.xcconfig */,
+				4CF4143AF5B736A4A8A38270 /* Pods-CatGiffy.release.xcconfig */,
+				E048BE395012C83EA788EC2F /* Pods-CatGiffyTests.debug.xcconfig */,
+				B461869CC9702ACC1630CDE2 /* Pods-CatGiffyTests.release.xcconfig */,
+				B96EEBFFF23B8C323938D4F1 /* Pods-CatGiffyUITests.debug.xcconfig */,
+				793573A6B0D89ED4EC99C2A0 /* Pods-CatGiffyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1BFE7922BE540500ACEFB3 /* Build configuration list for PBXNativeTarget "CatGiffy" */;
 			buildPhases = (
+				3BDD529697EAB6E5832CAE6E /* [CP] Check Pods Manifest.lock */,
 				9F1BFE4A22BE540100ACEFB3 /* Sources */,
 				9F1BFE4B22BE540100ACEFB3 /* Frameworks */,
 				9F1BFE4C22BE540100ACEFB3 /* Resources */,
+				ACE075CB9F77D0A9A3F90C41 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1BFE7C22BE540500ACEFB3 /* Build configuration list for PBXNativeTarget "CatGiffyTests" */;
 			buildPhases = (
+				D4B0972A7BFEB349B16FCAAC /* [CP] Check Pods Manifest.lock */,
 				9F1BFE6122BE540500ACEFB3 /* Sources */,
 				9F1BFE6222BE540500ACEFB3 /* Frameworks */,
 				9F1BFE6322BE540500ACEFB3 /* Resources */,
@@ -170,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1BFE7F22BE540500ACEFB3 /* Build configuration list for PBXNativeTarget "CatGiffyUITests" */;
 			buildPhases = (
+				2D2B96A4B319160C66525859 /* [CP] Check Pods Manifest.lock */,
 				9F1BFE6C22BE540500ACEFB3 /* Sources */,
 				9F1BFE6D22BE540500ACEFB3 /* Frameworks */,
 				9F1BFE6E22BE540500ACEFB3 /* Resources */,
@@ -254,14 +304,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D2B96A4B319160C66525859 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatGiffyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BDD529697EAB6E5832CAE6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatGiffy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE075CB9F77D0A9A3F90C41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CatGiffy/Pods-CatGiffy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatGiffy/Pods-CatGiffy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B0972A7BFEB349B16FCAAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatGiffyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F1BFE4A22BE540100ACEFB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F1BFE5A22BE540100ACEFB3 /* CatGiffy.xcdatamodeld in Sources */,
+				9F1BFE8322BE9D0D00ACEFB3 /* Image.swift in Sources */,
 				9F1BFE5422BE540100ACEFB3 /* ViewController.swift in Sources */,
+				9F1BFE8722BEF9D100ACEFB3 /* ImageTableViewCell.swift in Sources */,
 				9F1BFE5222BE540100ACEFB3 /* AppDelegate.swift in Sources */,
+				9F1BFE8522BEE69600ACEFB3 /* NetworkUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +561,7 @@
 		};
 		9F1BFE7A22BE540500ACEFB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF05059379F5C7FA16FFA0A7 /* Pods-CatGiffy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +580,7 @@
 		};
 		9F1BFE7B22BE540500ACEFB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF4143AF5B736A4A8A38270 /* Pods-CatGiffy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +599,7 @@
 		};
 		9F1BFE7D22BE540500ACEFB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E048BE395012C83EA788EC2F /* Pods-CatGiffyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +621,7 @@
 		};
 		9F1BFE7E22BE540500ACEFB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B461869CC9702ACC1630CDE2 /* Pods-CatGiffyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +643,7 @@
 		};
 		9F1BFE8022BE540500ACEFB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96EEBFFF23B8C323938D4F1 /* Pods-CatGiffyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +664,7 @@
 		};
 		9F1BFE8122BE540500ACEFB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793573A6B0D89ED4EC99C2A0 /* Pods-CatGiffyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -590,19 +723,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9F1BFE5822BE540100ACEFB3 /* CatGiffy.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9F1BFE5922BE540100ACEFB3 /* CatGiffy.xcdatamodel */,
-			);
-			currentVersion = 9F1BFE5922BE540100ACEFB3 /* CatGiffy.xcdatamodel */;
-			path = CatGiffy.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9F1BFE4622BE540100ACEFB3 /* Project object */;
 }
