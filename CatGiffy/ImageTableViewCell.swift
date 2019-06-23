@@ -25,8 +25,8 @@ class ImageTableViewCell: UITableViewCell {
                     img.kf.setImage(with: url,options: [.transition(.fade(0.2)),.cacheSerializer(FormatIndicatedCacheSerializer.gif)])
                     
                 }
-                
             }
         }
     }
+    
 }

@@ -134,7 +134,7 @@
 		9F1BFE5022BE540100ACEFB3 /* CatGiffy */ = {
 			isa = PBXGroup;
 			children = (
-				9F1BFE8E22BF687800ACEFB3 /* New Group */,
+				9F1BFE8E22BF687800ACEFB3 /* utils */,
 				9F1BFE8D22BF663E00ACEFB3 /* models */,
 				9F1BFE8C22BF663000ACEFB3 /* ui */,
 				9F1BFE5122BE540100ACEFB3 /* AppDelegate.swift */,
@@ -182,13 +182,13 @@
 			path = models;
 			sourceTree = "<group>";
 		};
-		9F1BFE8E22BF687800ACEFB3 /* New Group */ = {
+		9F1BFE8E22BF687800ACEFB3 /* utils */ = {
 			isa = PBXGroup;
 			children = (
 				9F1BFE8422BEE69600ACEFB3 /* NetworkUtils.swift */,
 				9F1BFE8F22BF688B00ACEFB3 /* UI.swift */,
 			);
-			path = "New Group";
+			path = utils;
 			sourceTree = "<group>";
 		};
 		A0AED0E756BAA141130FE395 /* Pods */ = {

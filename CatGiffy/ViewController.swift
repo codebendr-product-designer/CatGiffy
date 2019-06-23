@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     var images = [Image]()
-        var refreshControl:UIRefreshControl!
- 
+    var refreshControl:UIRefreshControl!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,20 +22,21 @@ class ViewController: UIViewController {
         refreshControl.addTarget(self, action: #selector(fetchImagesFromUrl), for: .valueChanged)
         tableView.refreshControl = refreshControl
         refreshControl.beginRefreshing()
-
+        
         fetchImagesFromUrl()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let destination = segue.destination
-
+        
         if let detailViewController = destination as? DetailViewController {
             detailViewController.gif = sender as? Image
         }
     }
     
     @objc fileprivate func fetchImagesFromUrl() {
+        
         NetworkUtils.get(from: NetworkUtils.imagesUrl) { data in
             guard let data = data else {
                 let alert = UI.showError {
@@ -58,24 +59,21 @@ class ViewController: UIViewController {
                 }
                 self.present(alert, animated: true)
             }
-            
         }
     }
-  
 }
 
 // MARK: - UITableViewDelegate
 extension ViewController: UITableViewDelegate  {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-          performSegue(withIdentifier: "ImageDetailSegue", sender: images[indexPath.row])
+        performSegue(withIdentifier: "ImageDetailSegue", sender: images[indexPath.row])
     }
     
 }
 
 // MARK: - UITableViewDataSource
 extension ViewController: UITableViewDataSource {
-    
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
@@ -90,10 +88,7 @@ extension ViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ImageTableViewCell", for: indexPath) as! ImageTableViewCell
         
         cell.gif = images[indexPath.row]
-        
         return cell
-        
     }
+    
 }
-
-
