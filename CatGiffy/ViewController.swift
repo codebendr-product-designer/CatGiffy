@@ -38,7 +38,10 @@ class ViewController: UIViewController {
     @objc fileprivate func fetchImagesFromUrl() {
         NetworkUtils.get(from: NetworkUtils.imagesUrl) { data in
             guard let data = data else {
-                print("error data")
+                let alert = UI.showError {
+                    self.fetchImagesFromUrl()
+                }
+                self.present(alert, animated: true)
                 return
             }
             do {
@@ -50,7 +53,10 @@ class ViewController: UIViewController {
                 }
                 
             } catch {
-                print("error json \(error)")
+                let alert = UI.showError {
+                    self.fetchImagesFromUrl()
+                }
+                self.present(alert, animated: true)
             }
             
         }
