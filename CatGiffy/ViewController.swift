@@ -15,9 +15,7 @@ class ViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    
-        
+
         NetworkUtils.get(from: NetworkUtils.imagesUrl) { data in
             guard let data = data else {
                 print("error data")
